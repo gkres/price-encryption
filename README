@@ -1,0 +1,15 @@
+A sample showing how to encrypt 64-bit values. 
+It is a reverse of the Decrypt() function found here https://code.google.com/p/privatedatacommunicationprotocol/
+and described here https://developers.google.com/ad-exchange/rtb/response-guide/decrypt-price.
+
+Run the sample with the first argument being the price. You can then use the code from the link above to decrypt
+it. The decrypt sample has the value hardcoded in line 188 (the 1.0.1 version) or line 249 (the 2.0.1 version).
+
+Sample code depends on
+	libssl-dev
+	libmodpbase64-dev
+
+Files
+	encrypter.cc:	sample code
+	Makefile:		build commands
+	LICENSE:		Apache License
